@@ -1,4 +1,4 @@
-#Secret Santa Mailer
+# Secret Santa Mailer
 
 Simple python program to send Secret Santa participation emails and bring Christmas magic in people's hearts.
 
