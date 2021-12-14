@@ -16,9 +16,9 @@ if __name__ == '__main__':
                            help="Defines the object to use for the emails.")
     argparser.add_argument("--participants-file", type=str, default="santas_secret_list.csv",
                            help="Specifies the path to the .csv file that contains the list of who participates.")
-    argparser.add_argument("--csv-sep", type=str, default=",", help="Set the .csv file seprator.")
-    argparser.add_argument("--likes-sep", type=str, default=";", help="Set the 'likes' list seprator in the .csv file.")
-    argparser.add_argument("--no-card", type=bool, action="store_false",
+    argparser.add_argument("--csv-sep", type=str, default=",", help="Set the .csv file separator.")
+    argparser.add_argument("--likes-sep", type=str, default=";", help="Set the 'likes' list separator in the .csv file.")
+    argparser.add_argument("--no-card", action="store_true",
                            help="Tells the script to avoid sending xmas cards attachments.")
 
     args = argparser.parse_args()
